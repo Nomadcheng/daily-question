@@ -2,6 +2,13 @@
 try to salve one front-end question every day, force myself to commit every day.
 
 ### question
+2019-08-12
+
+> 'abcaakjbb' => {'a':2,'b':2}
+>
+> 'abbkejsbcccwqaa' => {'c':3}
+
+solve: [second question](https://github.com/Nomadcheng/daily-question/blob/master/2019-08-12.js)
 2019-08-11
 
 > please read a func to do the following
