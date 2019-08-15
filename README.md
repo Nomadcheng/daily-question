@@ -2,6 +2,11 @@
 try to salve one front-end question every day, force me to commit every day.
 
 ### question
+2019-08-15
+> 搜索关键词高亮
+
+solve: [fourth question](https://github.com/Nomadcheng/daily-question/blob/master/2019-08-15.html)
+
 2019-08-13
 > how to realize apply and call func
 > 
