@@ -2,6 +2,10 @@
 try to salve one front-end question every day, force me to commit every day.
 
 ### question
+2019-08-16
+> vue抽象组件实现防抖组件
+
+solve: [fifth question](https://github.com/Nomadcheng/daily-question/blob/master/2019-08-16.js)
 2019-08-15
 > 搜索关键词高亮
 
