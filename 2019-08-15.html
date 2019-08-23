@@ -52,7 +52,9 @@
     }
   }
 
-  function handleInput(value) {
+  function handleInput(input) {
+    // 特殊符号不高亮不然会报错
+    const value = input.replace(/\W/, '')
     const reg = new RegExp(`\(${value}\)`);
     const search = data.reduce((res, cur) => {
       if (reg.test(cur)) {
@@ -64,7 +66,7 @@
     return search;
   }
   
-  const data = ["上海野生动物园", "上饶野生动物园", "北京巷子", "上海中心", "上海黄埔江", "迪士尼上海", "陆家嘴上海中心"]
+  const data = ["上海（野生）动物园", "上饶野生动物园", "北京巷子", "上海中心", "上海黄埔江", "迪士尼上海", "陆家嘴上海中心"]
   const container = document.querySelector('.container');
   const memorizeInput = memorize(handleInput);
   document.querySelector('.inp').addEventListener('input', debounce(e => {
